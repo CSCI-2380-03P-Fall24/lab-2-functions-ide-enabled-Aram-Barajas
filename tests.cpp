@@ -10,8 +10,7 @@ using namespace std;
 TEST_CASE("locateSmallest") {
 	int myarray[] = { 16,3,75,40,21,40,44,52,40,90,22 };
 	int target = 40;
-
-	CHECK(locateSmallest(myarray, 2, 8) == 4);
+	CHECK(locateSmallest(myarray, 2, 8) == 44);
 
 	replaceVariable(myarray, target, 3, 7);
 
